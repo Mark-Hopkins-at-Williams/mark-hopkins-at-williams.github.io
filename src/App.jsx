@@ -101,7 +101,7 @@ function CourseCard({ course }) {
 
 export default function App() {
   return (
-    <div className="p-6">
+    <div className="p-6 max-w-4xl mx-auto">
       <div className="flex gap-4 items-start">
         <div className="flex flex-col space-y-4">
           <div>
