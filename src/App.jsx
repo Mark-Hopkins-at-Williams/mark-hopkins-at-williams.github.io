@@ -3,7 +3,7 @@ import content from './content.json'
 const { header, publications, courses } = content
 
 function PublicationCard({ pub }) {
-  const image = <img src={pub.image} alt="" className="w-full h-36 object-cover rounded" />
+  const image = <img src={pub.image} alt="" className="w-full h-36 object-contain rounded" />
   return (
     <div className="flex flex-col items-center bg-white p-2 rounded">
       {pub.imageLinked ? (
@@ -35,7 +35,7 @@ function CourseCard({ course }) {
     <img
       src={course.image}
       alt={isGif ? 'Animated GIF' : ''}
-      className="w-full h-64 object-cover rounded"
+      className="w-full h-64 object-contain rounded"
     />
   )
   return (
