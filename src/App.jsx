@@ -103,12 +103,7 @@ export default function App() {
   return (
     <div className="p-6">
       <div className="flex gap-4 items-start">
-        <img
-          src="images/hoptimist.png"
-          alt="Mark Hopkins"
-          className="w-1/3 h-auto object-cover rounded sticky top-6 self-start"
-        />
-        <div className="w-2/3 flex flex-col space-y-4">
+        <div className="flex flex-col space-y-4">
           <div>
             <h1 className="text-5xl font-bold font-inter text-left mb-2">MARK HOPKINS</h1>
             <div className="text-lg text-left font-main leading-none">ASSOCIATE PROFESSOR OF COMPUTER SCIENCE</div>
@@ -161,24 +156,6 @@ export default function App() {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className="text-xs font-main text-center mt-5">
-        The above left image is a Hoptimist, a creation of Danish wood turner Hans Gustav Ehrenreich in the late
-        1960s.
-      </div>
-      <div className="text-xs font-main text-center">
-        {' '}
-        I have no connection to Ehrenreich or the{' '}
-        <a
-          href="https://www.hoptimist.com/"
-          className="text-blue-600 hover:text-blue-800"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Hoptimist
-        </a>{' '}
-        organization, except for (a) my last name and (b) my desire to someday become an optimist.
       </div>
     </div>
   )
