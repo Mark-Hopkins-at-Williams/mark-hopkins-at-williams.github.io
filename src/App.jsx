@@ -30,9 +30,17 @@ function PublicationCard({ pub }) {
 }
 
 function CourseCard({ course }) {
+  const isGif = course.image.toLowerCase().endsWith('.gif')
+  const image = <img src={course.image} alt={isGif ? 'Animated GIF' : ''} className="w-64 h-auto rounded" />
   return (
     <div className="flex flex-col items-center bg-white p-2 rounded">
-      <img src={course.gif} alt="Animated GIF" className="w-64 h-auto rounded" />
+      {isGif ? (
+        image
+      ) : (
+        <a href={course.href} target="_blank" rel="noopener noreferrer" className="text-link hover:text-hover">
+          {image}
+        </a>
+      )}
       <div className="w-full text-left text-lg font-bold mb-1" style={{ fontFamily: 'Oswald' }}>
         <a href={course.href} target="_blank" rel="noopener noreferrer" className="text-link hover:text-hover">
           {course.title}
