@@ -20,20 +20,20 @@
   },
   "publications": [
     {
-      "href": "https://aclanthology.org/2025.wmt-1.14.pdf",
-      "image": "images/wmt2025_prevue.png",
-      "imageLinked": true,
-      "title": "Using Encipherment to Isolate Conditions for the Successful Fine-tuning of Massively Multilingual Translation Models",
-      "description": "When fine-tuning massively multilingual translation models for low-resource languages, practitioners often include auxiliary languages to improve performance, but factors determining successful auxiliary language selection remain unclear. This paper investigated whether syntactic similarity or lexical overlap is more important for effective multilingual fine-tuning.",
-      "venue": "Published in the Proceedings of the 10th Conference on Machine Translation (WMT)."
-    },
-    {
       "href": "https://aclanthology.org/2023.acl-long.437/",
       "image": "images/selective.png",
       "imageLinked": true,
       "title": "On the Evaluation of Neural Selective Prediction Methods for Natural Language Processing",
       "description": "This work provides a methodological blueprint for evaluating neural selective classification methods, including a novel metric called refinement that provides a calibrated evaluation of confidence functions for selective prediction.",
       "venue": "Published in the Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)."
+    },
+    {
+      "href": "https://aclanthology.org/2025.wmt-1.14.pdf",
+      "image": "images/wmt2025_prevue.png",
+      "imageLinked": true,
+      "title": "Using Encipherment to Isolate Conditions for the Successful Fine-tuning of Massively Multilingual Translation Models",
+      "description": "When fine-tuning massively multilingual translation models for low-resource languages, practitioners often include auxiliary languages to improve performance, but factors determining successful auxiliary language selection remain unclear. This paper investigated whether syntactic similarity or lexical overlap is more important for effective multilingual fine-tuning.",
+      "venue": "Published in the Proceedings of the 10th Conference on Machine Translation (WMT)."
     },
     {
       "href": "https://aclanthology.org/2022.conll-1.7/",
@@ -44,12 +44,12 @@
       "venue": "Published in the Proceedings of the 26th Conference on Computational Natural Language Learning (CoNLL)."
     },
     {
-      "href": "https://www.liebertpub.com/doi/abs/10.1089/cmb.2022.0132",
-      "image": "images/research1.png",
+      "href": "https://aclanthology.org/2023.acl-long.437/",
+      "image": "images/selective.png",
       "imageLinked": true,
-      "title": "Transformer Neural Networks for Protein Family and Interaction Prediction Tasks",
-      "description": "A collaboration with Reed College and the University of Illinois at Urbana-Champaign, this work adapted natural language processing techniques to the automatic identification of protein families.",
-      "venue": "Published in the Journal of Computational Biology."
+      "title": "On the Evaluation of Neural Selective Prediction Methods for Natural Language Processing",
+      "description": "This work provides a methodological blueprint for evaluating neural selective classification methods, including a novel metric called refinement that provides a calibrated evaluation of confidence functions for selective prediction.",
+      "venue": "Published in the Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)."
     }
   ],
   "courses": [

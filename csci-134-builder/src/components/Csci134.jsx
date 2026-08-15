@@ -63,7 +63,18 @@ const Welcome = () => {
   );
 };
 
-const TeachingAssistant = ({ image, name, hours, hours2, where }) => {
+const TeachingAssistant = ({ image, name, hours, hours2, where, link }) => {
+  const photo = (
+    <img
+      src={image}
+      style={{
+        borderStyle: "solid",
+        borderColor: "white",
+        width: "100px",
+      }}
+    />
+  );
+
   return (
     <div
       className="csci134-subtitle"
@@ -74,14 +85,13 @@ const TeachingAssistant = ({ image, name, hours, hours2, where }) => {
         fontSize: "14px",
       }}
     >
-      <img
-        src={image}
-        style={{
-          borderStyle: "solid",
-          borderColor: "white",
-          width: "100px",
-        }}
-      />
+      {link ? (
+        <a href={link} target="_blank">
+          {photo}
+        </a>
+      ) : (
+        photo
+      )}
       <div
         style={{
           width: "100px",
@@ -139,6 +149,7 @@ const TeachingAssistants = () => {
             name="Mark"
             hours="thu 230-4pm"
             where="tcl 307"
+            link="https://markandrewhopkins.com/"
           />
           <TeachingAssistant
             image="images/beaker.png"
