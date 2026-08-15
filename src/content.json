@@ -54,13 +54,13 @@
   ],
   "courses": [
     {
-      "href": "https://mark-hopkins-at-williams.github.io/csci-134/",
+      "href": "https://www.cs.williams.edu/~hopkins/csci-134/",
       "image": "images/cookiemonster.png",
       "title": "CSCI 134: Introduction to Computer Science",
       "description": "This course introduces students to the science of computation by exploring the representation and manipulation of data and algorithms. We organize and transform information in order to solve problems using algorithms written in a modern object-oriented language. Topics include organization of data using objects and classes, and the description of processes using conditional control, iteration, methods and classes. We also begin the study of abstraction, self-reference, reuse, and performance analysis. While the choice of programming language and application area will vary in different offerings, the skills students develop will transfer equally well to more advanced study in many areas. In particular, this course is designed to provide the programming skills needed for further study in computer science and is expected to satisfy introductory programming requirements in other departments."
     },
     {
-      "href": "https://mark-hopkins-at-williams.github.io/csci-270/",
+      "href": "https://www.cs.williams.edu/~hopkins/csci-270/",
       "image": "https://media.giphy.com/media/PFVOx7eDfBT3a6Gw9S/giphy.gif",
       "title": "CSCI 270: Foundations of Artificial Intelligence",
       "description": "Computer science has increasingly set its sights on problems with no obvious prescriptive solution, such as image classification, natural language understanding, and game playing. As it is infeasible to prescriptively identify a cat from a set of pixels, or a winning move from the state of a chess board, tools from the traditional computer science canon of algorithms and system building are often insufficient. Artificial intelligence (AI) techniques have increasingly been leveraged to fill this gap. Rather than explicitly specifying how to solve a task, AI techniques typically take an indirect approach: first describing the task using a standardized representation (e.g., labeled data for supervised machine learning and state spaces for heuristic search), and then employing general-purpose algorithms that operate on the task description. The goal of this course is to introduce the theoretical and practical foundations that will enable students to add AI methodologies to their computational toolbox. It provides the fundamentals for more advanced study of artificial intelligence and machine learning."
