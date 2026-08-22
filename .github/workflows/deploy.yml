@@ -28,6 +28,13 @@ jobs:
       - run: npm ci
       - run: npm run build
 
+      # csci-134 and csci-270 each have their own standalone repo with its
+      # own GitHub Pages site, which is what actually serves /csci-134/ and
+      # /csci-270/ under this org's github.io domain - GitHub reserves those
+      # paths for the same-named repos regardless of this repo's content.
+      # The sync-course-pages job below keeps those repos up to date instead.
+      - run: rm -rf dist/csci-134 dist/csci-270
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
@@ -41,3 +48,43 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  sync-course-pages:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        course: [csci-134, csci-270]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            public/${{ matrix.course }}
+          sparse-checkout-cone-mode: false
+
+      - name: Push built output to the standalone course repo
+        env:
+          GH_TOKEN: ${{ secrets.COURSE_REPOS_TOKEN }}
+        run: |
+          set -euo pipefail
+          course="${{ matrix.course }}"
+          target="Mark-Hopkins-at-Williams/${course}"
+
+          git clone "https://x-access-token:${GH_TOKEN}@github.com/${target}.git" target-repo
+
+          # Replace everything except the editable builder/ source and repo
+          # metadata files with this build's output.
+          find target-repo -mindepth 1 -maxdepth 1 \
+            ! -name builder ! -name README.md ! -name .gitignore ! -name .git \
+            -exec rm -rf {} +
+          cp -r "public/${course}/." target-repo/
+
+          cd target-repo
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to sync for ${course}"
+          else
+            git commit -m "Sync built site from mark-hopkins-at-williams.github.io"
+            git push origin main
+          fi
