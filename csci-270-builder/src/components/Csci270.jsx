@@ -11,7 +11,16 @@ function toEmbedUrl(link) {
     : link;
 }
 
+function getVisualViewportRect() {
+  const vv = window.visualViewport;
+  return vv
+    ? { left: vv.offsetLeft, top: vv.offsetTop, width: vv.width, height: vv.height }
+    : { left: 0, top: 0, width: window.innerWidth, height: window.innerHeight };
+}
+
 const SlidePreviewModal = ({ title, link, onClose }) => {
+  const [viewportRect, setViewportRect] = useState(getVisualViewportRect);
+
   useEffect(() => {
     const scrollY = window.scrollY;
     const { position, top, width, overflow } = document.body.style;
@@ -30,12 +39,31 @@ const SlidePreviewModal = ({ title, link, onClose }) => {
     };
   }, []);
 
+  // iOS Safari resizes/pans the *visual* viewport (address bar collapsing,
+  // pinch-zoom) independently of the layout viewport that `position: fixed`
+  // sizes against, which can push a plain inset:0 overlay's controls outside
+  // what's actually visible. Track the visual viewport explicitly instead.
+  useEffect(() => {
+    const vv = window.visualViewport;
+    if (!vv) return;
+    const update = () => setViewportRect(getVisualViewportRect());
+    vv.addEventListener("resize", update);
+    vv.addEventListener("scroll", update);
+    return () => {
+      vv.removeEventListener("resize", update);
+      vv.removeEventListener("scroll", update);
+    };
+  }, []);
+
   return (
     <div
       onClick={onClose}
       style={{
         position: "fixed",
-        inset: 0,
+        left: viewportRect.left,
+        top: viewportRect.top,
+        width: viewportRect.width,
+        height: viewportRect.height,
         background: "rgba(0, 0, 0, 0.75)",
         zIndex: 1000,
         display: "flex",
@@ -43,6 +71,7 @@ const SlidePreviewModal = ({ title, link, onClose }) => {
         alignItems: "center",
         justifyContent: "center",
         padding: "24px",
+        boxSizing: "border-box",
       }}
     >
       <div
