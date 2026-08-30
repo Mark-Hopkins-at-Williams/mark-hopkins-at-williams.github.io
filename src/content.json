@@ -20,12 +20,12 @@
   },
   "publications": [
     {
-      "href": "https://aclanthology.org/2023.acl-long.437/",
-      "image": "images/selective.png",
+      "href": "https://arxiv.org/pdf/2608.15080",
+      "image": "images/autocomplete.png",
       "imageLinked": true,
-      "title": "On the Evaluation of Neural Selective Prediction Methods for Natural Language Processing",
-      "description": "This work provides a methodological blueprint for evaluating neural selective classification methods, including a novel metric called refinement that provides a calibrated evaluation of confidence functions for selective prediction.",
-      "venue": "Published in the Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)."
+      "title": "A Pilot Study of Autocompleting Tokenizers",
+      "description": "Inspired by autocomplete-assisted input systems, we investigate whether Transformer inputs can be compressed in a similar manner. Byte-level tokenization offers a simple and language-independent alternative to subword tokenization, but its longer input sequences typically result in increased computational cost and reduced model quality. We propose a compression scheme that employs a lightweight autoregressive byte language model to identify and remove bytes that are easily predictable from their surrounding context before Transformer processing. The resulting compressed representation is then provided as input to a standard encoder-decoder Transformer.",
+      "venue": "Accepted to the Second Tokenization Workshop at COLM 2026."
     },
     {
       "href": "https://aclanthology.org/2025.wmt-1.14.pdf",

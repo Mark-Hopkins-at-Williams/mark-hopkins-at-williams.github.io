@@ -43,7 +43,15 @@ const Welcome = () => {
   );
 };
 
-const TeachingAssistant = ({ image, name, hours, hours2, hours3, where, link }) => {
+const TeachingAssistant = ({
+  image,
+  name,
+  hours,
+  hours2,
+  hours3,
+  where,
+  link,
+}) => {
   const photo = (
     <img
       src={image}
@@ -113,40 +121,21 @@ const TeachingAssistants = () => {
             name="Mark"
             hours="tu 11am-noon"
             where="tcl 307"
-            link="https://markandrewhopkins.com/"
+            link="https://www.cs.williams.edu/~hopkins/"
           />
           <TeachingAssistant
-            image="images/mendez.jpeg"
-            name="Juan"
+            image="images/jasper.jpg"
+            name="Jasper"
             hours="su 5-7pm"
             hours2="m 3-5pm"
             hours3="tu 5-7pm"
             where="unix lab"
           />
           <TeachingAssistant
-            image="images/hall.jpeg"
-            name="Lauren"
+            image="images/charlie.jpg"
+            name="Charlie"
             hours="su 7-9pm"
             hours2="m 730-9pm"
-            where="unix lab"
-          />
-          <TeachingAssistant
-            image="images/wexler.jpeg"
-            name="Sam"
-            hours="tu 7-9pm"
-            where="unix lab"
-          />
-          <TeachingAssistant
-            image="images/park.jpeg"
-            name="Serah"
-            hours="th 4-6pm"
-            where="unix lab"
-          />
-          <TeachingAssistant
-            image="images/yuri.jpeg"
-            name="Yuri"
-            hours="m 7-10pm"
-            hours2="th 6-8pm"
             where="unix lab"
           />
         </div>

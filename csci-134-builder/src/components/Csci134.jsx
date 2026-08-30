@@ -149,7 +149,7 @@ const TeachingAssistants = () => {
             name="Mark"
             hours="thu 230-4pm"
             where="tcl 307"
-            link="https://markandrewhopkins.com/"
+            link="https://www.cs.williams.edu/~hopkins/"
           />
           <TeachingAssistant
             image="images/beaker.png"

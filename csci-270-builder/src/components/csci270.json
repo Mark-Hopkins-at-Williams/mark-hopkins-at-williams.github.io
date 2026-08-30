@@ -10,13 +10,13 @@
             "id": "info-1",
             "title": "python setup (mac)",
             "locked": false,
-            "link": "https://docs.google.com/document/d/16q4F-NSpA3dbJJOne7YDPYBjGpxH4jdaTXxzxF1YA0w/edit?usp=sharing"
+            "link": "https://docs.google.com/document/d/1iOB2onYeNZtWoph-DOE4yMhWXhqLHsZN58KCBBvjWdY/edit?usp=sharing"
         },
         {
             "id": "info-2",
             "title": "python setup (windows)",
             "locked": false,
-            "link": "https://docs.google.com/document/d/10HVQIeVpTDZubX6q9t-ZC9rxdGRfdH6v_vfaO2xy56E/edit?usp=sharing"
+            "link": "https://docs.google.com/document/d/1tVzMYLlGGO6EIutM5ASC7ToFlzLv0RHtMzqDnVFyccE/edit?usp=sharing"
         },
         {
             "id": "info-3",
@@ -220,10 +220,10 @@
             "week": 4,
             "lab": {
                 "id": "lab-3",
-                "title": "project 1 - connect four",
-                "release": "Mar 4 2026",
-                "due": "Apr 14 2026",
-                "link": "https://docs.google.com/document/d/1WFWUWRsbziRAsYCpfHXzi_R7OVqMQrdtwjMygYa_DxE/edit?usp=sharing"
+                "title": "oral exam 1",
+                "release": "",
+                "due": "",
+                "link": ""
             },
             "mon": [
                 {
@@ -259,31 +259,6 @@
             ],
             "thu": [
                 {
-                    "type": "activity",
-                    "title": "quiz 1 practice",
-                    "release": "Feb 28 2026",
-                    "link": "https://docs.google.com/document/d/1w4ZOS1qUp-HVj_NPg1QcKOefhVzTFHpAGkUl2trEBAw/edit?usp=sharing"
-                },
-                {
-                    "type": "quiz",
-                    "title": "quiz 1",
-                    "release": "Mar 5 2026",
-                    "link": "https://docs.google.com/document/d/1ht1T-HE2ncd4HmmIy3lUPQz6SKBsa1QF_05nhTlITEc/edit?usp=sharing"
-                }
-            ]
-        },
-        {
-            "id": "week-5",
-            "week": 5,
-            "lab": {
-                "id": "lab-4",
-                "title": "descent",
-                "release": "Mar 11 2026",
-                "due": "Mar 17 2026",
-                "link": "https://docs.google.com/document/d/1SS2yI2e8zko0CEAJaVKpC4H_3bcx_4UMcMUAfCD2ARk/edit?tab=t.0#heading=h.bt6nfb7twjcq"
-            },
-            "mon": [
-                {
                     "type": "lecture",
                     "title": "variants of gradient descent",
                     "release": "Mar 9 2026",
@@ -301,7 +276,19 @@
                     "release": "Mar 9 2026",
                     "link": "https://drive.google.com/file/d/13JhWCUo_lY3aAUncplN29QdW1X9MJes4/view?usp=sharing"
                 }
-            ],
+            ]
+        },
+        {
+            "id": "week-5",
+            "week": 5,
+            "lab": {
+                "id": "lab-4",
+                "title": "descent",
+                "release": "Mar 11 2026",
+                "due": "Mar 17 2026",
+                "link": "https://docs.google.com/document/d/1SS2yI2e8zko0CEAJaVKpC4H_3bcx_4UMcMUAfCD2ARk/edit?tab=t.0#heading=h.bt6nfb7twjcq"
+            },
+            "mon": [],
             "thu": [
                 {
                     "type": "lecture",
@@ -470,6 +457,25 @@
             "thu": [
                 {
                     "type": "lecture",
+                    "title": "ethics 1",
+                    "release": "Apr 16 2026",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "id": "week-9",
+            "week": 9,
+            "lab": {
+                "id": "lab-7",
+                "title": "oral exam 2",
+                "release": "",
+                "due": "",
+                "link": ""
+            },
+            "mon": [
+                {
+                    "type": "lecture",
                     "title": "probability",
                     "release": "Apr 16 2026",
                     "link": "https://drive.google.com/file/d/1YjpLGYQdK-RxvYbrNuxBCXDbef1XWoGj/view?usp=sharing"
@@ -498,19 +504,8 @@
                     "release": "Apr 16 2026",
                     "link": "https://docs.google.com/document/d/1pStnwKTGwDHf6IzRETBhUOiEJKfd7Cx34bOrBsYCayY/edit?usp=sharing"
                 }
-            ]
-        },
-        {
-            "id": "week-9",
-            "week": 9,
-            "lab": {
-                "id": "lab-7",
-                "title": "project 2 - alpha four",
-                "release": "Apr 21 2026",
-                "due": "May 12 2026",
-                "link": "https://docs.google.com/document/d/1mCHJ-ja0IZXa0qvCGoRC5Z8tGsgoDp80s9acU5t90nY/edit?usp=sharing"
-            },
-            "mon": [
+            ],
+            "thu": [
                 {
                     "type": "lecture",
                     "title": "the law of total probability",
@@ -535,20 +530,6 @@
                     "release": "Apr 16 2026",
                     "link": "https://docs.google.com/document/d/1ZpqquDhMqF6H4N11CELnVNvnrZ4S4wgxO2PdpxL52WI/edit?usp=sharing"
                 }
-            ],
-            "thu": [
-                {
-                    "type": "activity",
-                    "title": "quiz 2 practice",
-                    "release": "Apr 18 2026",
-                    "link": "https://docs.google.com/document/d/1xNQYBhGjWmZcRSWdp_abbFL2-DvIQB7CrUIu7YsdW4g/edit?usp=sharing"
-                },
-                {
-                    "type": "quiz",
-                    "title": "quiz 2",
-                    "release": "Apr 24 2026",
-                    "link": "https://docs.google.com/document/d/1kPzVoS-WlsXeTrWQf6XMd_f9cH1fVH3_GYjDokXdgxU/edit?usp=drive_link"
-                }
             ]
         },
         {
@@ -556,10 +537,10 @@
             "week": 10,
             "lab": {
                 "id": "lab-8",
-                "title": "project 2 - alpha four",
+                "title": "aloha, mr. morse/the power of redundancy",
                 "release": "Apr 21 2026",
                 "due": "May 12 2026",
-                "link": ""
+                "link": "https://docs.google.com/document/d/1eGF47laUQauImIhYJ7o4oHN2Yq899t3212hu0bp_awo/edit?usp=drive_link"
             },
             "mon": [
                 {
@@ -637,9 +618,9 @@
             "week": 11,
             "lab": {
                 "id": "lab-9",
-                "title": "project 2 - alpha four",
-                "release": "Apr 21 2026",
-                "due": "May 12 2026",
+                "title": "thanksgiving break",
+                "release": "",
+                "due": "",
                 "link": ""
             },
             "mon": [
@@ -662,7 +643,18 @@
                     "link": "https://drive.google.com/file/d/1vR9D1rLgTR3s69A58sAExeff3VecMgpi/view?usp=sharing"
                 }
             ],
-            "thu": [
+            "thu": []
+        },
+        {
+            "id": "week-12",
+            "week": 12,
+            "lab": {
+                "id": "lab-11",
+                "title": "bloodlines",
+                "release": "May 13 2026",
+                "link": "https://docs.google.com/document/d/1r315RI4HrGn_lHxQ0lV1yRx49AyMThAPbZtxbQR0qKo/edit?usp=drive_link"
+            },
+            "mon": [
                 {
                     "type": "activity",
                     "title": "hidden markov models",
@@ -693,37 +685,13 @@
                     "release": "May 7 2026",
                     "link": "https://docs.google.com/document/d/1MxDqmHJ89PdQ-18Kv_i-m0JcsyojODu-szlJ1YWe47Y/edit?usp=sharing"
                 }
-            ]
-        },
-        {
-            "id": "week-12",
-            "week": 12,
-            "lab": {
-                "id": "lab-11",
-                "title": "quiz 3 review",
-                "release": "May 13 2026",
-                "link": "https://docs.google.com/document/d/1sA1NdH7tFc6_nkI85Rd0tjNFqiZU-xKAt1Ipd381DRE/edit?usp=sharing"
-            },
-            "mon": [
-                {
-                    "type": "lecture",
-                    "title": "bloodlines: a case study of probabilistic inference",
-                    "release": "May 11 2026",
-                    "link": ""
-                }
             ],
             "thu": [
                 {
-                    "type": "activity",
-                    "title": "quiz 3 practice",
+                    "type": "lecture",
+                    "title": "ethics 2",
                     "release": "May 7 2026",
-                    "link": "https://docs.google.com/document/d/1sA1NdH7tFc6_nkI85Rd0tjNFqiZU-xKAt1Ipd381DRE/edit?usp=sharing"
-                },
-                {
-                    "type": "quiz",
-                    "title": "quiz 3",
-                    "release": "May 14 2026",
-                    "link": "https://docs.google.com/document/d/14C5PYLABnIeEqlMX76x6JyrTpNfBeNLhN7Jaqdg20Vw/edit?usp=sharing"
+                    "link": ""
                 }
             ]
         },
@@ -732,30 +700,24 @@
             "week": 13,
             "lab": {
                 "id": "lab-11",
-                "title": "quiz 3 review",
+                "title": "wordle",
                 "release": "May 13 2026",
-                "link": "https://docs.google.com/document/d/1sA1NdH7tFc6_nkI85Rd0tjNFqiZU-xKAt1Ipd381DRE/edit?usp=sharing"
+                "link": ""
             },
             "mon": [
                 {
                     "type": "lecture",
-                    "title": "bloodlines: a case study of probabilistic inference",
+                    "title": "expectimax",
                     "release": "May 11 2026",
                     "link": ""
                 }
             ],
             "thu": [
                 {
-                    "type": "activity",
-                    "title": "quiz 3 practice",
-                    "release": "May 7 2026",
-                    "link": "https://docs.google.com/document/d/1sA1NdH7tFc6_nkI85Rd0tjNFqiZU-xKAt1Ipd381DRE/edit?usp=sharing"
-                },
-                {
-                    "type": "quiz",
-                    "title": "quiz 3",
+                    "type": "lecture",
+                    "title": "final thoughts",
                     "release": "May 14 2026",
-                    "link": "https://docs.google.com/document/d/14C5PYLABnIeEqlMX76x6JyrTpNfBeNLhN7Jaqdg20Vw/edit?usp=sharing"
+                    "link": ""
                 }
             ]
         }
