@@ -47,7 +47,7 @@
                     "type": "lecture",
                     "title": "primitive expressions",
                     "release": "Jan 28 2026",
-                    "link": "https://drive.google.com/file/d/1Tq-4aTUBxIeSX7ESADGzUZvIz7930zhs/view?usp=sharing"
+                    "link": "lectures/primitive-expressions.pdf"
                 },
                 {
                     "type": "kahoot",
@@ -59,13 +59,13 @@
                     "type": "lecture",
                     "title": "functions and arguments",
                     "release": "Jan 28 2026",
-                    "link": "https://drive.google.com/file/d/1AdXC2uhaK-JuaDMoP2nLPiZQK-Ya8CW4/view?usp=sharing"
+                    "link": "lectures/functions-and-arguments.pdf"
                 },
                 {
                     "type": "lecture",
                     "title": "expression trees",
                     "release": "Jan 28 2026",
-                    "link": "https://drive.google.com/file/d/1rUhwrpSzKCyAtOAItPz2Mz94TY8asK4u/view?usp=sharing"
+                    "link": "lectures/expression-trees.pdf"
                 },
                 {
                     "type": "activity",
@@ -91,7 +91,7 @@
                     "type": "lecture",
                     "title": "flattening expressions",
                     "release": "Feb 11 2026",
-                    "link": "https://drive.google.com/file/d/1SPnppgjabDfY8cBaBGUCSt2bZs-7qJGy/view?usp=sharing"
+                    "link": "lectures/flattening-expressions.pdf"
                 },
                 {
                     "type": "kahoot",
@@ -149,7 +149,7 @@
                     "type": "lecture",
                     "title": "boolean expressions",
                     "release": "Feb 18 2026",
-                    "link": "https://drive.google.com/file/d/1SS0LNa8D6FuPhuLjipDLoBydgQ8KC-xr/view?usp=sharing"
+                    "link": "lectures/boolean-expressions.pdf"
                 },
                 {
                     "type": "kahoot",
@@ -169,7 +169,7 @@
                     "type": "lecture",
                     "title": "function expressions",
                     "release": "Feb 20 2026",
-                    "link": "https://drive.google.com/file/d/1T5f5qWcNNJkROv4CtBxv-uOrWpG-7aoU/view?usp=sharing"
+                    "link": "lectures/function-expressions.pdf"
                 },
                 {
                     "type": "kahoot",
@@ -181,7 +181,7 @@
                     "type": "lecture",
                     "title": "lambda expressions",
                     "release": "Feb 20 2026",
-                    "link": "https://drive.google.com/file/d/1KbUq-5nZ2EME-uCDMd820QjEViDjYfJe/view?usp=sharing"
+                    "link": "lectures/lambda-expressions.pdf"
                 },
                 {
                     "type": "activity",
@@ -206,7 +206,7 @@
                     "type": "lecture",
                     "title": "def statements",
                     "release": "Feb 20 2026",
-                    "link": "https://drive.google.com/file/d/15_EaDdK5syScUIkwTqNMIcRvFmlbky5y/view?usp=sharing"
+                    "link": "lectures/def-statements.pdf"
                 },
                 {
                     "type": "activity",
@@ -218,7 +218,7 @@
                     "type": "lecture",
                     "title": "functions as arguments",
                     "release": "Feb 23 2026",
-                    "link": "https://drive.google.com/file/d/14_iOIQkjsfwI-x9Q2mOreRmLnih23MAY/view?usp=sharing"
+                    "link": "lectures/functions-as-arguments.pdf"
                 },
                 {
                     "type": "activity",
@@ -232,7 +232,7 @@
                     "type": "lecture",
                     "title": "nonetype",
                     "release": "Feb 24 2026",
-                    "link": "https://drive.google.com/file/d/1m1Q1kliQ74mGZIJyFsDnwWgQ8lSjyFrg/view?usp=sharing"
+                    "link": "lectures/nonetype.pdf"
                 },
                 {
                     "type": "kahoot",
@@ -244,7 +244,7 @@
                     "type": "lecture",
                     "title": "variable scope",
                     "release": "Feb 25 2026",
-                    "link": "https://drive.google.com/file/d/1KjDRojoaicOCLUpgePrCQHFIPUkApjrX/view?usp=sharing"
+                    "link": "lectures/variable-scope.pdf"
                 },
                 {
                     "type": "kahoot",
@@ -258,7 +258,7 @@
                     "type": "lecture",
                     "title": "inner functions",
                     "release": "Feb 27 2026",
-                    "link": "https://drive.google.com/file/d/1nQQAXrkzcEaHRuoEJi3gBdDkTAOHUDae/view?usp=sharing"
+                    "link": "lectures/inner-functions.pdf"
                 },
                 {
                     "type": "activity",
@@ -282,7 +282,7 @@
                     "type": "lecture",
                     "title": "environment diagrams",
                     "release": "Mar 2 2026",
-                    "link": "https://drive.google.com/file/d/1IKxOFHNxyErrOex4KYU4F87aL5QtgAEj/view?usp=sharing"
+                    "link": "lectures/environment-diagrams.pdf"
                 },
                 {
                     "type": "activity",
@@ -296,7 +296,7 @@
                     "type": "lecture",
                     "title": "for statements",
                     "release": "Mar 4 2026",
-                    "link": "https://drive.google.com/file/d/1FR0XCO63i4G4YiyBcuQ-AZvyle2d0usU/view?usp=sharing"
+                    "link": "lectures/for-statements.pdf"
                 },
                 {
                     "type": "activity",
@@ -308,7 +308,7 @@
                     "type": "lecture",
                     "title": "if statements",
                     "release": "Mar 4 2026",
-                    "link": "https://drive.google.com/file/d/1hYbN5-dCojt1fRyP3-VSL3I8hXPeHGq8/view?usp=sharing"
+                    "link": "lectures/if-statements.pdf"
                 },
                 {
                     "type": "activity",
@@ -340,7 +340,7 @@
                     "type": "lecture",
                     "title": "while statements",
                     "release": "Mar 9 2026",
-                    "link": "https://drive.google.com/file/d/1t-np6lNzCn6yn44Khr3AqTrJLdQRipP2/view?usp=sharing"
+                    "link": "lectures/while-statements.pdf"
                 },
                 {
                     "type": "activity",
@@ -354,7 +354,7 @@
                     "type": "lecture",
                     "title": "lists",
                     "release": "Mar 11 2026",
-                    "link": "https://drive.google.com/file/d/1nvMM4RFdZ7uywzFo87t5QamT1y61NdPq/view?usp=sharing"
+                    "link": "lectures/lists.pdf"
                 },
                 {
                     "type": "kahoot",
@@ -374,7 +374,7 @@
                     "type": "lecture",
                     "title": "dictionaries",
                     "release": "Mar 13 2026",
-                    "link": "https://drive.google.com/file/d/1MgzZxgxnMdnOgbIuBrQwUTlbNYhHhzZF/view?usp=sharing"
+                    "link": "lectures/dictionaries.pdf"
                 },
                 {
                     "type": "kahoot",
@@ -405,7 +405,7 @@
                     "type": "lecture",
                     "title": "sets",
                     "release": "Mar 16 2026",
-                    "link": "https://drive.google.com/file/d/13qSG3wCXgOebBn9z75UkAjvtVmgY90vJ/view?usp=sharing"
+                    "link": "lectures/sets.pdf"
                 },
                 {
                     "type": "kahoot",
@@ -417,7 +417,7 @@
                     "type": "lecture",
                     "title": "string slicing",
                     "release": "Mar 16 2026",
-                    "link": "https://drive.google.com/file/d/1bZ_92U6WF0EEsn5K_gK89oetzc-6R9_8/view?usp=sharing"
+                    "link": "lectures/string-slicing.pdf"
                 },
                 {
                     "type": "kahoot",
@@ -431,7 +431,7 @@
                     "type": "lecture",
                     "title": "mutability and tuples",
                     "release": "Mar 18 2026",
-                    "link": "https://drive.google.com/file/d/1PltQBqJEZEfjQWTMM0v4H59orvQYMfHQ/view?usp=sharing"
+                    "link": "lectures/mutability-and-tuples.pdf"
                 },
                 {
                     "type": "activity",
@@ -443,7 +443,7 @@
                     "type": "lecture",
                     "title": "list comprehensions",
                     "release": "Mar 18 2026",
-                    "link": "https://drive.google.com/file/d/1Ye1lSq4qZatnkqvfNCaqvvXOQZ2W1tcW/view?usp=sharing"
+                    "link": "lectures/list-comprehensions.pdf"
                 },
                 {
                     "type": "kahoot",
@@ -542,7 +542,7 @@
                     "type": "lecture",
                     "title": "linked lists",
                     "release": "Apr 6 2026",
-                    "link": "https://drive.google.com/file/d/15YGAo-5klVmN_yPb1at6SCfx0fJGikac/view?usp=sharing"
+                    "link": "lectures/linked-lists.pdf"
                 },
                 {
                     "type": "activity",
@@ -562,7 +562,7 @@
                     "type": "lecture",
                     "title": "trees",
                     "release": "Apr 8 2026",
-                    "link": "https://drive.google.com/file/d/1Eg2cqU9zTQCyd6urU0miCB9zpocw4uTm/view?usp=sharing"
+                    "link": "lectures/trees.pdf"
                 },
                 {
                     "type": "activity",
@@ -582,7 +582,7 @@
                     "type": "lecture",
                     "title": "recursion",
                     "release": "Apr 10 2026",
-                    "link": "https://drive.google.com/file/d/1TXPIQ2TEhwUktsmXT9vYZGne8A_bxT7N/view?usp=sharing"
+                    "link": "lectures/recursion.pdf"
                 }
             ]
         },
@@ -615,7 +615,7 @@
                     "type": "lecture",
                     "title": "methods",
                     "release": "Apr 15 2026",
-                    "link": "https://drive.google.com/file/d/1KFNhtc1n0OB0MwqcONFYdCAOXb5f-QRs/view?usp=sharing"
+                    "link": "lectures/methods.pdf"
                 },
                 {
                     "type": "kahoot",
@@ -627,7 +627,7 @@
                     "type": "lecture",
                     "title": "classes",
                     "release": "Apr 15 2026",
-                    "link": "https://drive.google.com/file/d/1ksGYH0CLX82uV8lrFtDSKi8DsdKSuQxk/view?usp=sharing"
+                    "link": "lectures/classes.pdf"
                 },
                 {
                     "type": "activity",
@@ -641,7 +641,7 @@
                     "type": "lecture",
                     "title": "object state",
                     "release": "Apr 17 2026",
-                    "link": "https://drive.google.com/file/d/1NRAPN_6faJmMeqiI5xckxrpABh93ZmlX/view?usp=sharing"
+                    "link": "lectures/object-state.pdf"
                 },
                 {
                     "type": "activity",
@@ -653,7 +653,7 @@
                     "type": "lecture",
                     "title": "special methods",
                     "release": "Apr 17 2026",
-                    "link": "https://drive.google.com/file/d/1diXRKz7tW3Uu00F700_6RowAlDWsb9Zn/view?usp=sharing"
+                    "link": "lectures/special-methods.pdf"
                 },
                 {
                     "type": "activity",
@@ -678,7 +678,7 @@
                     "type": "lecture",
                     "title": "inheritance",
                     "release": "Apr 20 2026",
-                    "link": "https://drive.google.com/file/d/1RF89w_LGCButyd3QkPtzSQ_tkf-XwBZx/view?usp=drive_link"
+                    "link": "lectures/inheritance.pdf"
                 },
                 {
                     "type": "activity",
@@ -698,7 +698,7 @@
                     "type": "lecture",
                     "title": "sorting",
                     "release": "Apr 22 2026",
-                    "link": "https://drive.google.com/file/d/18-_Jc_PnI5XpN8S21vorvxv9I4RhF5zN/view?usp=sharing"
+                    "link": "lectures/sorting.pdf"
                 },
                 {
                     "type": "kahoot",
@@ -743,7 +743,7 @@
                     "type": "lecture",
                     "title": "worst-case analysis",
                     "release": "Apr 27 2026",
-                    "link": "https://drive.google.com/file/d/1zaSPQEnSLb9bvzqKMNyvNN8W68mA1Bxj/view?usp=sharing"
+                    "link": "lectures/worst-case-analysis.pdf"
                 },
                 {
                     "type": "activity",
@@ -757,7 +757,7 @@
                     "type": "lecture",
                     "title": "o-notation",
                     "release": "Apr 29 2026",
-                    "link": "https://drive.google.com/file/d/1mVDEH13-vj3mq5hXrBbAIaUrB8c2zNxx/view?usp=sharing"
+                    "link": "lectures/o-notation.pdf"
                 },
                 {
                     "type": "activity",
@@ -777,13 +777,13 @@
                     "type": "lecture",
                     "title": "mergesort",
                     "release": "May 1 2026",
-                    "link": "https://drive.google.com/file/d/1SnPfZa0PcrJ4BTe8Iauiw04vBz4xvwAD/view?usp=sharing"
+                    "link": "lectures/mergesort.pdf"
                 },
                 {
                     "type": "lecture",
                     "title": "logarithmic complexity",
                     "release": "May 1 2026",
-                    "link": "https://drive.google.com/file/d/1kFVljPnZypotymENZ3wn-gy7crd1TY6d/view?usp=sharing"
+                    "link": "lectures/logarithmic-complexity.pdf"
                 },
                 {
                     "type": "kahoot",
@@ -814,7 +814,7 @@
                     "type": "lecture",
                     "title": "analyzing code",
                     "release": "May 4 2026",
-                    "link": "https://drive.google.com/file/d/1VGoBAu_C2re0WvIMQ_2Laj85jxLt293L/view?usp=sharing"
+                    "link": "lectures/analyzing-code.pdf"
                 },
                 {
                     "type": "activity",
@@ -828,7 +828,7 @@
                     "type": "lecture",
                     "title": "binary numbers",
                     "release": "May 6 2026",
-                    "link": "https://drive.google.com/file/d/1HSQTKc7Gou2T4ul7ql_VtvoK84ZbWL1D/view?usp=sharing"
+                    "link": "lectures/binary-numbers.pdf"
                 },
                 {
                     "type": "activity",
@@ -840,7 +840,7 @@
                     "type": "lecture",
                     "title": "alternative bases",
                     "release": "May 6 2026",
-                    "link": "https://drive.google.com/file/d/1u5dt_4Fd6oY4azsItf-HfRMTdz2TEEHh/view?usp=sharing"
+                    "link": "lectures/alternative-bases.pdf"
                 },
                 {
                     "type": "kahoot",
@@ -873,7 +873,7 @@
                     "type": "lecture",
                     "title": "hexadecimal representation",
                     "release": "May 11 2026",
-                    "link": "https://drive.google.com/file/d/1cQEAW1RoEXPT5kEVu62RaKFfyFOwrPvZ/view?usp=sharing"
+                    "link": "lectures/hexadecimal-representation.pdf"
                 },
                 {
                     "type": "activity",
@@ -885,7 +885,7 @@
                     "type": "lecture",
                     "title": "files",
                     "release": "May 11 2026",
-                    "link": "https://drive.google.com/file/d/19DxBJQPqLdQxDZzW8MIXOwOXw8Ia5nH-/view?usp=drive_link"
+                    "link": "lectures/files.pdf"
                 }
             ],
             "wed": [
@@ -893,7 +893,7 @@
                     "type": "lecture",
                     "title": "simple graphics",
                     "release": "May 13 2026",
-                    "link": "https://drive.google.com/file/d/1rNmzmNdhEmvIjlHMn52HBzfBeKFGJ3Bo/view?usp=drive_link"
+                    "link": "lectures/simple-graphics.pdf"
                 },
                 {
                     "type": "activity",
@@ -905,7 +905,7 @@
                     "type": "lecture",
                     "title": "user events",
                     "release": "May 13 2026",
-                    "link": "https://drive.google.com/file/d/1p5TpjUBE7UzPID7-2WEPgL5U4ODH3_gp/view?usp=drive_link"
+                    "link": "lectures/user-events.pdf"
                 },
                 {
                     "type": "activity",
@@ -919,7 +919,7 @@
                     "type": "lecture",
                     "title": "timer events",
                     "release": "May 15 2026",
-                    "link": "https://drive.google.com/file/d/1u8_tDU_qP1O5SH0_5Xqdkb8xrkbPCgng/view?usp=drive_link"
+                    "link": "lectures/timer-events.pdf"
                 },
                 {
                     "type": "activity",

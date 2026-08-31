@@ -1,6 +1,141 @@
 import { useState } from "react";
 import { useEffect } from "react";
 import courseData from "./csci134.json";
+import PdfSlideshowViewer, { isPdfLink } from "./PdfSlideshowViewer";
+
+function toEmbedUrl(link) {
+  if (!link) return link;
+  const match = link.match(
+    /^https:\/\/drive\.google\.com\/file\/d\/([^/]+)\/view/
+  );
+  return match
+    ? `https://drive.google.com/file/d/${match[1]}/preview`
+    : link;
+}
+
+function getVisualViewportRect() {
+  const vv = window.visualViewport;
+  return vv
+    ? { left: vv.offsetLeft, top: vv.offsetTop, width: vv.width, height: vv.height }
+    : { left: 0, top: 0, width: window.innerWidth, height: window.innerHeight };
+}
+
+const SlidePreviewModal = ({ title, link, onClose }) => {
+  const [viewportRect, setViewportRect] = useState(getVisualViewportRect);
+
+  useEffect(() => {
+    const scrollY = window.scrollY;
+    const { position, top, width, overflow } = document.body.style;
+
+    document.body.style.position = "fixed";
+    document.body.style.top = `-${scrollY}px`;
+    document.body.style.width = "100%";
+    document.body.style.overflow = "hidden";
+
+    return () => {
+      document.body.style.position = position;
+      document.body.style.top = top;
+      document.body.style.width = width;
+      document.body.style.overflow = overflow;
+      window.scrollTo(0, scrollY);
+    };
+  }, []);
+
+  // iOS Safari resizes/pans the *visual* viewport (address bar collapsing,
+  // pinch-zoom) independently of the layout viewport that `position: fixed`
+  // sizes against, which can push a plain inset:0 overlay's controls outside
+  // what's actually visible. Track the visual viewport explicitly instead.
+  useEffect(() => {
+    const vv = window.visualViewport;
+    if (!vv) return;
+    const update = () => setViewportRect(getVisualViewportRect());
+    vv.addEventListener("resize", update);
+    vv.addEventListener("scroll", update);
+    return () => {
+      vv.removeEventListener("resize", update);
+      vv.removeEventListener("scroll", update);
+    };
+  }, []);
+
+  return (
+    <div
+      onClick={onClose}
+      style={{
+        position: "fixed",
+        left: viewportRect.left,
+        top: viewportRect.top,
+        width: viewportRect.width,
+        height: viewportRect.height,
+        background: "rgba(0, 0, 0, 0.75)",
+        zIndex: 1000,
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+        padding: "24px",
+        boxSizing: "border-box",
+      }}
+    >
+      <div
+        onClick={(e) => e.stopPropagation()}
+        style={{
+          width: "min(1100px, 100%)",
+          height: "100%",
+          display: "flex",
+          flexDirection: "column",
+          background: "rgb(40, 40, 50)",
+          borderRadius: "8px",
+          overflow: "hidden",
+        }}
+      >
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+            padding: "10px 16px",
+            color: "white",
+          }}
+        >
+          <span className="csci134-text">{title}</span>
+          <div>
+            <a
+              href={link}
+              target="_blank"
+              rel="noreferrer"
+              className="csci134-text csci134-textlink"
+              style={{ marginRight: "16px" }}
+            >
+              open in new tab
+            </a>
+            <button
+              onClick={onClose}
+              className="csci134-text"
+              style={{
+                background: "none",
+                border: "none",
+                color: "white",
+                cursor: "pointer",
+                fontSize: "18px",
+              }}
+            >
+              ✕ close
+            </button>
+          </div>
+        </div>
+        {isPdfLink(link) ? (
+          <PdfSlideshowViewer url={link} />
+        ) : (
+          <iframe
+            src={toEmbedUrl(link)}
+            title={title}
+            style={{ flexGrow: 1, border: "none", background: "white" }}
+          />
+        )}
+      </div>
+    </div>
+  );
+};
 
 function getNow() {
   //return new Date("Jan 1 2030"); // uncomment to unlock all content
@@ -225,6 +360,7 @@ const LabAssignment = ({ type, title, link, release }) => {
 };
 
 const SlideDeck = ({ type, title, link, release }) => {
+  const [previewOpen, setPreviewOpen] = useState(false);
   const now = getNow();
   const released = release ? now > new Date(release) : false;
   const locked = !released || !link;
@@ -261,12 +397,32 @@ const SlideDeck = ({ type, title, link, release }) => {
     );
   };
 
-  return !locked ? (
+  if (locked) return renderContent();
+
+  if (type === "lecture" || type === "jlecture") {
+    return (
+      <>
+        <div
+          onClick={() => setPreviewOpen(true)}
+          style={{ cursor: "pointer" }}
+        >
+          {renderContent()}
+        </div>
+        {previewOpen && (
+          <SlidePreviewModal
+            title={title}
+            link={link}
+            onClose={() => setPreviewOpen(false)}
+          />
+        )}
+      </>
+    );
+  }
+
+  return (
     <a href={link} target="_blank">
       {renderContent()}
     </a>
-  ) : (
-    renderContent()
   );
 };
 
