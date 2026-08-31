@@ -41,7 +41,7 @@
                     "type": "lecture",
                     "title": "state machines",
                     "release": "Jan 26 2026",
-                    "link": "https://drive.google.com/file/d/1fnfvwwzwtNnUXDpD3ig54iuolXowpm56/view?usp=sharing"
+                    "link": "State Machines.pdf"
                 },
                 {
                     "type": "activity",
@@ -53,7 +53,7 @@
                     "type": "lecture",
                     "title": "a template for search algorithms",
                     "release": "Jan 26 2026",
-                    "link": "https://drive.google.com/file/d/1tqY3v6QIqeDwVcAjK6jT0pYzvh0wmjYS/view?usp=sharing"
+                    "link": "lectures/a-template-for-search-algorithms.pdf"
                 },
                 {
                     "type": "kahoot",
@@ -65,7 +65,7 @@
                     "type": "lecture",
                     "title": "breadth-first search",
                     "release": "Jan 26 2026",
-                    "link": "https://drive.google.com/file/d/1_e92H52Ttpx9bHQQRzJJ6-_4KV61UO_5/view?usp=sharing"
+                    "link": "lectures/breadth-first-search.pdf"
                 }
             ],
             "thu": [
@@ -73,25 +73,25 @@
                     "type": "lecture",
                     "title": "uniform-cost search",
                     "release": "Feb 12 2026",
-                    "link": "https://drive.google.com/file/d/1hxXjAbnanEnVS2_EGhy7vDWS8qEtAIZ1/view?usp=sharing"
+                    "link": "lectures/uniform-cost-search.pdf"
                 },
                 {
                     "type": "lecture",
                     "title": "depth-first search",
                     "release": "Feb 12 2026",
-                    "link": "https://drive.google.com/file/d/1qn_yScl6f1BMXa_hASXwoU128xgU0dY8/view?usp=sharing"
+                    "link": "lectures/depth-first-search.pdf"
                 },
                 {
                     "type": "lecture",
                     "title": "memoized search",
                     "release": "Feb 12 2026",
-                    "link": "https://drive.google.com/file/d/1_HDrRDD4gXjB1KEMjphhuCzDfd_ER4vc/view?usp=sharing"
+                    "link": "lectures/memoized-search.pdf"
                 },
                 {
                     "type": "lecture",
                     "title": "metrics for search analysis",
                     "release": "Feb 12 2026",
-                    "link": "https://drive.google.com/file/d/1a_Dp5WRQZpOAt9RvNB5J2Ygv4P8RrwHr/view?usp=sharing"
+                    "link": "lectures/metrics-for-search-analysis.pdf"
                 },
                 {
                     "type": "activity",
@@ -116,7 +116,7 @@
                     "type": "lecture",
                     "title": "runtime of dfs and bfs",
                     "release": "Feb 16 2026",
-                    "link": "https://drive.google.com/file/d/1rVEnqZUhlyiPYF2b-tPbpHjz_OfsrLMN/view?usp=sharing"
+                    "link": "lectures/runtime-of-dfs-and-bfs.pdf"
                 },
                 {
                     "type": "activity",
@@ -128,13 +128,13 @@
                     "type": "lecture",
                     "title": "space complexity of dfs and bfs",
                     "release": "Feb 16 2026",
-                    "link": "https://drive.google.com/file/d/1NGPmogM709WVbC8gwBFrpONNp__ffv8m/view?usp=sharing"
+                    "link": "lectures/space-complexity-of-dfs-and-bfs.pdf"
                 },
                 {
                     "type": "lecture",
                     "title": "iterative deepening",
                     "release": "Feb 16 2026",
-                    "link": "https://drive.google.com/file/d/1zqFKg0jJFnE9Jzu2J7Ble01IpM1F9QmK/view?usp=sharing"
+                    "link": "lectures/iterative-deepening.pdf"
                 }
             ],
             "thu": [
@@ -142,19 +142,19 @@
                     "type": "lecture",
                     "title": "a* search",
                     "release": "Feb 19 2026",
-                    "link": "https://drive.google.com/file/d/16MX0Pvpv1NS1LenTZBOOE_ifCucl2LfM/view?usp=sharing"
+                    "link": "lectures/a-search.pdf"
                 },
                 {
                     "type": "lecture",
                     "title": "optimality of a* search",
                     "release": "Feb 19 2026",
-                    "link": "https://drive.google.com/file/d/1BLKahbGPDkIiEXC-saoTv_B2V26yoQrA/view?usp=sharing"
+                    "link": "lectures/optimality-of-a-search.pdf"
                 },
                 {
                     "type": "lecture",
                     "title": "admissible heuristics",
                     "release": "Feb 19 2026",
-                    "link": "https://drive.google.com/file/d/1Yj59C648-lB99aYpT_0btLH1Cx1gM-Sx/view?usp=drive_link"
+                    "link": "lectures/admissible-heuristics.pdf"
                 },
                 {
                     "type": "activity",
@@ -179,13 +179,13 @@
                     "type": "lecture",
                     "title": "multiplayer search",
                     "release": "Feb 23 2026",
-                    "link": "https://drive.google.com/file/d/1eIUnpRcx7qv5UaqbDgsM-mju0DouPtcu/view?usp=sharing"
+                    "link": "lectures/multiplayer-search.pdf"
                 },
                 {
                     "type": "lecture",
                     "title": "minimax",
                     "release": "Feb 23 2026",
-                    "link": "https://drive.google.com/file/d/16dJ-klTMrKTZZWBrLCjGdgpectfE6p_9/view?usp=sharing"
+                    "link": "lectures/minimax.pdf"
                 },
                 {
                     "type": "activity",
@@ -199,7 +199,7 @@
                     "type": "lecture",
                     "title": "alpha beta pruning",
                     "release": "Feb 26 2026",
-                    "link": "https://drive.google.com/file/d/1qsMsuB7zlmDi3ljlz5WbPE1SyfV1KHOZ/view?usp=sharing"
+                    "link": "lectures/alpha-beta-pruning.pdf"
                 },
                 {
                     "type": "activity",
@@ -211,7 +211,7 @@
                     "type": "lecture",
                     "title": "evaluation functions",
                     "release": "Feb 26 2026",
-                    "link": "https://drive.google.com/file/d/1ZwV7-IHJ0aW6lnGXgRili9mQ-znhgoYP/view?usp=sharing"
+                    "link": "lectures/evaluation-functions.pdf"
                 }
             ]
         },
@@ -230,7 +230,7 @@
                     "type": "lecture",
                     "title": "machine learning",
                     "release": "Mar 2 2026",
-                    "link": "https://drive.google.com/file/d/1jMYod0bXDTegN1NCOlSKOYrKqjlHW_wC/view?usp=sharing"
+                    "link": "lectures/machine-learning.pdf"
                 },
                 {
                     "type": "activity",
@@ -242,7 +242,7 @@
                     "type": "lecture",
                     "title": "gradient descent",
                     "release": "Mar 2 2026",
-                    "link": "https://drive.google.com/file/d/1FU17o4GVqnLmNDdM-QCjV7Dn5SQq6_N_/view?usp=sharing"
+                    "link": "lectures/gradient-descent.pdf"
                 },
                 {
                     "type": "activity",
@@ -262,7 +262,7 @@
                     "type": "lecture",
                     "title": "variants of gradient descent",
                     "release": "Mar 9 2026",
-                    "link": "https://drive.google.com/file/d/1A3UERzta_KAerCLI2iHzeqMiPYtfrlZ0/view?usp=sharing"
+                    "link": "lectures/variants-of-gradient-descent.pdf"
                 },
                 {
                     "type": "activity",
@@ -274,7 +274,7 @@
                     "type": "lecture",
                     "title": "multidimensional gradient descent",
                     "release": "Mar 9 2026",
-                    "link": "https://drive.google.com/file/d/13JhWCUo_lY3aAUncplN29QdW1X9MJes4/view?usp=sharing"
+                    "link": "lectures/multidimensional-gradient-descent.pdf"
                 }
             ]
         },
@@ -294,7 +294,7 @@
                     "type": "lecture",
                     "title": "linear regression",
                     "release": "Mar 12 2026",
-                    "link": "https://drive.google.com/file/d/1DI6nRY6RKSdIsyfehd8Pgh-jBYS-1Y5T/view?usp=sharing"
+                    "link": "lectures/linear-regression.pdf"
                 },
                 {
                     "type": "activity",
@@ -312,7 +312,7 @@
                     "type": "lecture",
                     "title": "argmin and monotonicity",
                     "release": "Mar 12 2026",
-                    "link": "https://drive.google.com/file/d/1HoQZ1EsmGrZeYLWsLM2u6Xz004Ao6-gz/view?usp=sharing"
+                    "link": "lectures/argmin-and-monotonicity.pdf"
                 }
             ]
         },
@@ -337,13 +337,13 @@
                     "type": "lecture",
                     "title": "logistic regression",
                     "release": "Mar 16 2026",
-                    "link": "https://drive.google.com/file/d/14KNn2lZ3ZnFLyoXJxNCfkwTdHzOqncLT/view?usp=sharing"
+                    "link": "lectures/logistic-regression.pdf"
                 },
                 {
                     "type": "lecture",
                     "title": "function graphs",
                     "release": "Mar 16 2026",
-                    "link": "https://drive.google.com/file/d/18RPG1kSC01N2_6scw6gtjWRuRMVq1vZT/view?usp=sharing"
+                    "link": "lectures/function-graphs.pdf"
                 },
                 {
                     "type": "activity",
@@ -363,19 +363,19 @@
                     "type": "lecture",
                     "title": "optimizing linear regression",
                     "release": "Mar 19 2026",
-                    "link": "https://drive.google.com/file/d/1qcXuh0X-EJb5Rbha4QiPMglncXjrxZdQ/view?usp=sharing"
+                    "link": "lectures/optimizing-linear-regression.pdf"
                 },
                 {
                     "type": "lecture",
                     "title": "optimizing logistic regression",
                     "release": "Mar 19 2026",
-                    "link": "https://drive.google.com/file/d/1ZzJTFN2A1WxGLa62vAxTyp6MTm3WxmbN/view?usp=sharing"
+                    "link": "lectures/optimizing-logistic-regression.pdf"
                 },
                 {
                     "type": "lecture",
                     "title": "regularization",
                     "release": "Mar 19 2026",
-                    "link": "https://drive.google.com/file/d/1ilUGrEMotkmgeOZPdz3W5YWB_tsxbYJU/view?usp=sharing"
+                    "link": "lectures/regularization.pdf"
                 }
             ]
         },
@@ -394,7 +394,7 @@
                     "type": "lecture",
                     "title": "torch",
                     "release": "Apr 6 2026",
-                    "link": "https://drive.google.com/file/d/1ETMXWx-ypcs-m7l81T_OukbLuOpBy0Qh/view?usp=sharing"
+                    "link": "lectures/torch.pdf"
                 },
                 {
                     "type": "kahoot",
@@ -406,7 +406,7 @@
                     "type": "lecture",
                     "title": "autograd",
                     "release": "Apr 6 2026",
-                    "link": "https://drive.google.com/file/d/1jIot9er11XoO7gsgpS8QDM43CqqSC2Nw/view?usp=sharing"
+                    "link": "lectures/autograd.pdf"
                 }
             ],
             "thu": [
@@ -414,25 +414,25 @@
                     "type": "lecture",
                     "title": "limitations of linear models",
                     "release": "Apr 6 2026",
-                    "link": "https://drive.google.com/file/d/1olvvROf3p-s-zUbV2ddK_EnvUsh4YwJT/view?usp=sharing"
+                    "link": "lectures/limitations-of-linear-models.pdf"
                 },
                 {
                     "type": "lecture",
                     "title": "neural networks",
                     "release": "Apr 9 2026",
-                    "link": "https://drive.google.com/file/d/1MtrbuhBGnPMfzBiXdCzjoRYbY_qZmXNH/view?usp=sharing"
+                    "link": "lectures/neural-networks.pdf"
                 },
                 {
                     "type": "lecture",
                     "title": "activation functions",
                     "release": "Apr 9 2026",
-                    "link": "https://drive.google.com/file/d/1ztIDMqFWa5BDt2zf30XYkyBBLmvMaiQl/view?usp=sharing"
+                    "link": "lectures/activation-functions.pdf"
                 },
                 {
                     "type": "lecture",
                     "title": "optimizing neural networks",
                     "release": "Apr 9 2026",
-                    "link": "https://drive.google.com/file/d/12eKGn2P2dXkAdskHCzTd5f7C3h4d-szj/view?usp=drive_link"
+                    "link": "lectures/optimizing-neural-networks.pdf"
                 }
             ]
         },
@@ -478,7 +478,7 @@
                     "type": "lecture",
                     "title": "probability",
                     "release": "Apr 16 2026",
-                    "link": "https://drive.google.com/file/d/1YjpLGYQdK-RxvYbrNuxBCXDbef1XWoGj/view?usp=sharing"
+                    "link": "lectures/probability.pdf"
                 },
                 {
                     "type": "activity",
@@ -496,7 +496,7 @@
                     "type": "lecture",
                     "title": "conditional probability",
                     "release": "Apr 16 2026",
-                    "link": "https://drive.google.com/file/d/1JKsg0p0-2GjH1ArhF-iMLu-8bvUXaftT/view?usp=sharing"
+                    "link": "lectures/conditional-probability.pdf"
                 },
                 {
                     "type": "activity",
@@ -510,7 +510,7 @@
                     "type": "lecture",
                     "title": "the law of total probability",
                     "release": "Apr 16 2026",
-                    "link": "https://drive.google.com/file/d/1ODZh3_gJxrOLxgwSCmeWfgWWZgK6tjwG/view?usp=sharing"
+                    "link": "lectures/the-law-of-total-probability.pdf"
                 },
                 {
                     "type": "activity",
@@ -522,7 +522,7 @@
                     "type": "lecture",
                     "title": "joint and marginal probability",
                     "release": "Apr 16 2026",
-                    "link": "https://drive.google.com/file/d/13K2Vr1GaHU-_hrRXKbVjUW8cy2WhDS5N/view?usp=sharing"
+                    "link": "lectures/joint-and-marginal-probability.pdf"
                 },
                 {
                     "type": "activity",
@@ -547,13 +547,13 @@
                     "type": "lecture",
                     "title": "the value of information",
                     "release": "Apr 16 2026",
-                    "link": "https://drive.google.com/file/d/1tqtUWHr_LyyKyNlSWmSubFedkPy5mBmO/view?usp=sharing"
+                    "link": "lectures/the-value-of-information.pdf"
                 },
                 {
                     "type": "lecture",
                     "title": "independence",
                     "release": "Apr 16 2026",
-                    "link": "https://drive.google.com/file/d/1JkVmmE4d_ZWv-19_RcaBzO0jvb2GVlXp/view?usp=sharing"
+                    "link": "lectures/independence.pdf"
                 },
                 {
                     "type": "activity",
@@ -579,7 +579,7 @@
                     "type": "lecture",
                     "title": "probabilistic inference",
                     "release": "Apr 27 2026",
-                    "link": "https://drive.google.com/file/d/1JcCfq1cm9Ca3xJel2DYDOUP1wX551bNw/view?usp=sharing"
+                    "link": "lectures/probabilistic-inference.pdf"
                 },
                 {
                     "type": "activity",
@@ -591,13 +591,13 @@
                     "type": "lecture",
                     "title": "chain rule of probability",
                     "release": "Apr 30 2026",
-                    "link": "https://drive.google.com/file/d/1MCvU4qgcbs4_Q728PBCSBRNhK8kTrJNb/view?usp=sharing"
+                    "link": "lectures/chain-rule-of-probability.pdf"
                 },
                 {
                     "type": "lecture",
                     "title": "bayesian networks",
                     "release": "Apr 30 2026",
-                    "link": "https://drive.google.com/file/d/1bx30j5rBFFwdwbfDfwADfe_hBsE2Dn8-/view?usp=sharing"
+                    "link": "lectures/bayesian-networks.pdf"
                 },
                 {
                     "type": "activity",
@@ -634,13 +634,13 @@
                     "type": "lecture",
                     "title": "the monty hall problem",
                     "release": "May 4 2026",
-                    "link": "https://drive.google.com/file/d/1kKHoZuG-413e7C6APIxJxG2i69GuWBnT/view?usp=drive_link"
+                    "link": "lectures/the-monty-hall-problem.pdf"
                 },
                 {
                     "type": "lecture",
                     "title": "variable elimination",
                     "release": "May 4 2026",
-                    "link": "https://drive.google.com/file/d/1vR9D1rLgTR3s69A58sAExeff3VecMgpi/view?usp=sharing"
+                    "link": "lectures/variable-elimination.pdf"
                 }
             ],
             "thu": []
@@ -665,7 +665,7 @@
                     "type": "lecture",
                     "title": "d-separation",
                     "release": "May 4 2026",
-                    "link": "https://drive.google.com/file/d/1CkvqJAG29-OHpDTeoOzjWeyhR22xqeMB/view?usp=sharing"
+                    "link": "lectures/d-separation.pdf"
                 },
                 {
                     "type": "activity",

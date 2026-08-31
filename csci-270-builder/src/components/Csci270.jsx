@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import courseData from "./csci270.json";
+import PdfSlideshowViewer, { isPdfLink } from "./PdfSlideshowViewer";
 
 function toEmbedUrl(link) {
   if (!link) return link;
@@ -121,11 +122,15 @@ const SlidePreviewModal = ({ title, link, onClose }) => {
             </button>
           </div>
         </div>
-        <iframe
-          src={toEmbedUrl(link)}
-          title={title}
-          style={{ flexGrow: 1, border: "none", background: "white" }}
-        />
+        {isPdfLink(link) ? (
+          <PdfSlideshowViewer url={link} />
+        ) : (
+          <iframe
+            src={toEmbedUrl(link)}
+            title={title}
+            style={{ flexGrow: 1, border: "none", background: "white" }}
+          />
+        )}
       </div>
     </div>
   );
