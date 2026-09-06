@@ -52,6 +52,7 @@ jobs:
   sync-course-pages:
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false
       matrix:
         course: [csci-134, csci-270]
     steps:
@@ -71,12 +72,16 @@ jobs:
 
           git clone "https://x-access-token:${GH_TOKEN}@github.com/${target}.git" target-repo
 
-          # Replace everything except the editable builder/ source and repo
-          # metadata files with this build's output.
-          find target-repo -mindepth 1 -maxdepth 1 \
-            ! -name builder ! -name README.md ! -name .gitignore ! -name .git \
-            -exec rm -rf {} +
-          cp -r "public/${course}/." target-repo/
+          # Replace only the paths this build actually produces, leaving
+          # everything else in the standalone repo untouched (builder/,
+          # repo metadata, and any hand-added content like csci-270's
+          # assignment starter-code directories or csci-134's favicon.ico).
+          find "public/${course}" -mindepth 1 -maxdepth 1 -print0 |
+            while IFS= read -r -d '' entry; do
+              name="$(basename "$entry")"
+              rm -rf "target-repo/${name}"
+              cp -r "$entry" "target-repo/${name}"
+            done
 
           cd target-repo
           git config user.name "github-actions[bot]"
