@@ -62,19 +62,26 @@ export default function App() {
     <div className="p-6 max-w-4xl mx-auto">
       <div className="flex gap-4 items-start">
         <div className="flex flex-col space-y-4">
-          <div>
-            <h1 className="text-5xl font-bold font-inter text-left mb-2">{header.name}</h1>
-            <div className="text-lg text-left font-main leading-none">{header.title}</div>
-            <div className="text-lg text-left font-main leading-tight">{header.institution}</div>
-            <div className="text-sm text-left font-main leading-tight">
-              {header.socialLinks.map((link, i) => (
-                <span key={link.href}>
-                  {i > 0 && ' | '}
-                  <a href={link.href} className="text-link hover:text-hover" target="_blank" rel="noopener noreferrer">
-                    {link.label}
-                  </a>
-                </span>
-              ))}
+          <div className="flex gap-4 items-start">
+            <img
+              src={header.photo}
+              alt={header.name}
+              className="w-28 h-28 object-cover rounded"
+            />
+            <div>
+              <h1 className="text-5xl font-bold font-inter text-left mb-2">{header.name}</h1>
+              <div className="text-lg text-left font-main leading-none">{header.title}</div>
+              <div className="text-lg text-left font-main leading-tight">{header.institution}</div>
+              <div className="text-sm text-left font-main leading-tight">
+                {header.socialLinks.map((link, i) => (
+                  <span key={link.href}>
+                    {i > 0 && ' | '}
+                    <a href={link.href} className="text-link hover:text-hover" target="_blank" rel="noopener noreferrer">
+                      {link.label}
+                    </a>
+                  </span>
+                ))}
+              </div>
             </div>
           </div>
 
