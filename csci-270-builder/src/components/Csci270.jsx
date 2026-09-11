@@ -5,17 +5,20 @@ import PdfSlideshowViewer, { isPdfLink } from "./PdfSlideshowViewer";
 function toEmbedUrl(link) {
   if (!link) return link;
   const match = link.match(
-    /^https:\/\/drive\.google\.com\/file\/d\/([^/]+)\/view/
+    /^https:\/\/drive\.google\.com\/file\/d\/([^/]+)\/view/,
   );
-  return match
-    ? `https://drive.google.com/file/d/${match[1]}/preview`
-    : link;
+  return match ? `https://drive.google.com/file/d/${match[1]}/preview` : link;
 }
 
 function getVisualViewportRect() {
   const vv = window.visualViewport;
   return vv
-    ? { left: vv.offsetLeft, top: vv.offsetTop, width: vv.width, height: vv.height }
+    ? {
+        left: vv.offsetLeft,
+        top: vv.offsetTop,
+        width: vv.width,
+        height: vv.height,
+      }
     : { left: 0, top: 0, width: window.innerWidth, height: window.innerHeight };
 }
 
@@ -259,19 +262,27 @@ const TeachingAssistants = () => {
             where="tcl 307"
             link="https://www.cs.williams.edu/~hopkins/"
           />
-          <TeachingAssistant
-            image="images/jasper.jpg"
-            name="Jasper"
-            hours="su 5-7pm"
-            hours2="m 3-5pm"
-            hours3="tu 5-7pm"
-            where="unix lab"
-          />
+
           <TeachingAssistant
             image="images/charlie.jpg"
             name="Charlie"
-            hours="su 7-9pm"
-            hours2="m 730-9pm"
+            hours="su 8-10pm"
+            hours2="m 8-10pm"
+            hours3="tu 8-10pm"
+            where="unix lab"
+          />
+          <TeachingAssistant
+            image="images/jasper.jpg"
+            name="Jasper"
+            hours="f 7-9pm"
+            hours2="sa 7-10pm"
+            where="unix lab"
+          />
+          <TeachingAssistant
+            image="images/josh.jpg"
+            name="Josh"
+            hours="f 5-7pm"
+            hours2="m 5-7pm"
             where="unix lab"
           />
         </div>
@@ -380,10 +391,7 @@ const SlideDeck = ({ type, title, link, release }) => {
   if (type === "lecture") {
     return (
       <>
-        <div
-          onClick={() => setPreviewOpen(true)}
-          style={{ cursor: "pointer" }}
-        >
+        <div onClick={() => setPreviewOpen(true)} style={{ cursor: "pointer" }}>
           {renderContent()}
         </div>
         {previewOpen && (
