@@ -258,7 +258,7 @@ const TeachingAssistants = () => {
           <TeachingAssistant
             image="images/mark.png"
             name="Mark"
-            hours="tu 11am-noon"
+            hours="m 1-3pm"
             where="tcl 307"
             link="https://www.cs.williams.edu/~hopkins/"
           />
@@ -281,8 +281,8 @@ const TeachingAssistants = () => {
           <TeachingAssistant
             image="images/josh.jpg"
             name="Josh"
-            hours="f 5-7pm"
-            hours2="m 5-7pm"
+            hours="m 5-7pm"
+            hours2="f 5-7pm"
             where="unix lab"
           />
         </div>
