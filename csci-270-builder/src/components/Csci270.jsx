@@ -259,6 +259,7 @@ const TeachingAssistants = () => {
             image="images/mark.png"
             name="Mark"
             hours="m 1-3pm"
+            hours2="f 1-215pm"
             where="tcl 307"
             link="https://www.cs.williams.edu/~hopkins/"
           />

@@ -40,13 +40,19 @@
                 {
                     "type": "lecture",
                     "title": "state machines",
-                    "release": "Jan 26 2026",
+                    "release": "Sep 14 2026",
                     "link": "State Machines.pdf"
                 },
                 {
                     "type": "activity",
+                    "title": "mystery machine",
+                    "release": "Sep 14 2026",
+                    "link": "https://docs.google.com/document/d/1ydJLU4OXfCfQWso4yBMuBxWTCI3o-VAWewLl3Vfpo_E/edit?usp=sharing"
+                },
+                {
+                    "type": "activity",
                     "title": "n queens",
-                    "release": "Jan 26 2026",
+                    "release": "Sep 14 2026",
                     "link": "https://docs.google.com/document/d/1V18ptlu7tJgQRqjYjvwjbhrIlX-pcN0tW-d5mSkhUN4/edit?usp=sharing"
                 },
                 {
