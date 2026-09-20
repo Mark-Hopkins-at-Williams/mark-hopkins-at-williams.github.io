@@ -141,6 +141,12 @@
                     "title": "iterative deepening",
                     "release": "Feb 16 2026",
                     "link": "lectures/iterative-deepening.pdf"
+                },
+                {
+                    "type": "activity",
+                    "title": "dfs ftw",
+                    "release": "Feb 16 2026",
+                    "link": "https://docs.google.com/document/d/1donfsOcortSv-Tb4GIxL7qKjpNuNN8tvWwNJDSPLq48/edit?usp=sharing"
                 }
             ],
             "thu": [
