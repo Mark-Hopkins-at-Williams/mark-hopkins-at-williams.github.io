@@ -157,6 +157,12 @@
                     "link": "lectures/a-search.pdf"
                 },
                 {
+                    "type": "activity",
+                    "title": "take a memo",
+                    "release": "Feb 19 2026",
+                    "link": "https://docs.google.com/document/d/1H2DLZqaLSXsOxoV48r1nsROXJlzPfkeOY4UpWqb4xyE/edit?usp=sharing"
+                },
+                {
                     "type": "lecture",
                     "title": "optimality of a* search",
                     "release": "Feb 19 2026",
