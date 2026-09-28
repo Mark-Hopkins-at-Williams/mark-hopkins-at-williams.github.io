@@ -200,6 +200,12 @@
                     "link": "lectures/multiplayer-search.pdf"
                 },
                 {
+                    "type": "activity",
+                    "title": "pacman",
+                    "release": "Feb 23 2026",
+                    "link": "https://docs.google.com/document/d/1Z7IJpNycJtGh8IrGcF5RHFdvfU-QD3IgF3qZ8UW1rtw/edit?usp=sharing"
+                },
+                {
                     "type": "lecture",
                     "title": "minimax",
                     "release": "Feb 23 2026",
