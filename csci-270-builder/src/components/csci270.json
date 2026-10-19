@@ -434,18 +434,6 @@
             "mon": [
                 {
                     "type": "lecture",
-                    "title": "torch",
-                    "release": "Apr 6 2026",
-                    "link": "lectures/torch.pdf"
-                },
-                {
-                    "type": "kahoot",
-                    "title": "torch",
-                    "release": "Apr 7 2026",
-                    "link": "https://create.kahoot.it/share/torch/6c41bbe2-d291-487d-909e-55cb6f0ac407"
-                },
-                {
-                    "type": "lecture",
                     "title": "autograd",
                     "release": "Apr 6 2026",
                     "link": "lectures/autograd.pdf"
