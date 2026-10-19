@@ -371,12 +371,6 @@
                 },
                 {
                     "type": "lecture",
-                    "title": "function graphs",
-                    "release": "Mar 16 2026",
-                    "link": "lectures/function-graphs.pdf"
-                },
-                {
-                    "type": "lecture",
                     "title": "torch",
                     "release": "Apr 6 2026",
                     "link": "lectures/torch.pdf"
@@ -402,22 +396,16 @@
                     "link": "lectures/optimizing-linear-regression.pdf"
                 },
                 {
+                    "type": "lecture",
+                    "title": "function graphs",
+                    "release": "Mar 16 2026",
+                    "link": "lectures/function-graphs.pdf"
+                },
+                {
                     "type": "activity",
                     "title": "logistic regression function graph",
                     "release": "Mar 16 2026",
                     "link": "https://docs.google.com/document/d/1WFBmL0XjG_3amUnN6QYrqSbMgH_Ogpkl-IfOUcUFnx4/edit?usp=sharing"
-                },
-                {
-                    "type": "lecture",
-                    "title": "optimizing logistic regression",
-                    "release": "Mar 19 2026",
-                    "link": "lectures/optimizing-logistic-regression.pdf"
-                },
-                {
-                    "type": "lecture",
-                    "title": "regularization",
-                    "release": "Mar 19 2026",
-                    "link": "lectures/regularization.pdf"
                 }
             ]
         },
@@ -437,6 +425,18 @@
                     "title": "autograd",
                     "release": "Apr 6 2026",
                     "link": "lectures/autograd.pdf"
+                },
+                {
+                    "type": "lecture",
+                    "title": "optimizing logistic regression",
+                    "release": "Mar 19 2026",
+                    "link": "lectures/optimizing-logistic-regression.pdf"
+                },
+                {
+                    "type": "lecture",
+                    "title": "regularization",
+                    "release": "Mar 19 2026",
+                    "link": "lectures/regularization.pdf"
                 }
             ],
             "thu": [
