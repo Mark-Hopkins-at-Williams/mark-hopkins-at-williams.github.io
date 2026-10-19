@@ -331,12 +331,6 @@
                     "title": "loop de loop",
                     "release": "Mar 12 2026",
                     "link": "https://docs.google.com/document/d/1A9FFvflUNdqI_mOTnFapm2W_tc78nOJO04EQi8vWLUg/edit?usp=sharing"
-                },
-                {
-                    "type": "lecture",
-                    "title": "argmin and monotonicity",
-                    "release": "Mar 12 2026",
-                    "link": "lectures/argmin-and-monotonicity.pdf"
                 }
             ]
         },
@@ -359,6 +353,18 @@
                 },
                 {
                     "type": "lecture",
+                    "title": "argmin and monotonicity",
+                    "release": "Mar 12 2026",
+                    "link": "lectures/argmin-and-monotonicity.pdf"
+                },
+                {
+                    "type": "activity",
+                    "title": "epidemic!",
+                    "release": "Mar 16 2026",
+                    "link": "https://docs.google.com/document/d/19ohoO9nbhMnklETJwN26QtOgFPPrfpk2NB89n7QO8Ss/edit?usp=sharing"
+                },
+                {
+                    "type": "lecture",
                     "title": "logistic regression",
                     "release": "Mar 16 2026",
                     "link": "lectures/logistic-regression.pdf"
@@ -370,10 +376,16 @@
                     "link": "lectures/function-graphs.pdf"
                 },
                 {
-                    "type": "activity",
-                    "title": "logistic regression function graph",
-                    "release": "Mar 16 2026",
-                    "link": "https://docs.google.com/document/d/1WFBmL0XjG_3amUnN6QYrqSbMgH_Ogpkl-IfOUcUFnx4/edit?usp=sharing"
+                    "type": "lecture",
+                    "title": "torch",
+                    "release": "Apr 6 2026",
+                    "link": "lectures/torch.pdf"
+                },
+                {
+                    "type": "kahoot",
+                    "title": "torch",
+                    "release": "Apr 7 2026",
+                    "link": "https://create.kahoot.it/share/torch/6c41bbe2-d291-487d-909e-55cb6f0ac407"
                 }
             ],
             "thu": [
@@ -388,6 +400,12 @@
                     "title": "optimizing linear regression",
                     "release": "Mar 19 2026",
                     "link": "lectures/optimizing-linear-regression.pdf"
+                },
+                {
+                    "type": "activity",
+                    "title": "logistic regression function graph",
+                    "release": "Mar 16 2026",
+                    "link": "https://docs.google.com/document/d/1WFBmL0XjG_3amUnN6QYrqSbMgH_Ogpkl-IfOUcUFnx4/edit?usp=sharing"
                 },
                 {
                     "type": "lecture",
