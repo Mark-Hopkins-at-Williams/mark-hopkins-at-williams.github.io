@@ -441,6 +441,12 @@
             ],
             "thu": [
                 {
+                    "type": "activity",
+                    "title": "a disaster of epidemic proportions",
+                    "release": "Apr 6 2026",
+                    "link": "https://docs.google.com/document/d/1IpqADD6Ir1__Z2eHD76RAOSBASmGoHML4FiaThZ8-SM/edit?usp=sharing"
+                },
+                {
                     "type": "lecture",
                     "title": "limitations of linear models",
                     "release": "Apr 6 2026",
