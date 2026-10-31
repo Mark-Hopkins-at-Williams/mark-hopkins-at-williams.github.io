@@ -493,9 +493,15 @@
             "thu": [
                 {
                     "type": "lecture",
-                    "title": "ethics 1",
+                    "title": "softmax",
                     "release": "Apr 16 2026",
                     "link": ""
+                },
+                {
+                    "type": "activity",
+                    "title": "oral exam prep",
+                    "release": "Nov 5 2026",
+                    "link": "https://docs.google.com/document/d/1W45Uss_w4uXrWtP594A-0A7Dz7mL4tcGLk6FVT5NXCI/edit?usp=sharing"
                 }
             ]
         },
@@ -505,9 +511,9 @@
             "lab": {
                 "id": "lab-7",
                 "title": "oral exam 2",
-                "release": "",
-                "due": "",
-                "link": ""
+                "release": "Nov 5 2026",
+                "due": "Nov 11 2026",
+                "link": "https://docs.google.com/document/d/1W45Uss_w4uXrWtP594A-0A7Dz7mL4tcGLk6FVT5NXCI/edit?usp=sharing"
             },
             "mon": [
                 {
@@ -725,7 +731,7 @@
             "thu": [
                 {
                     "type": "lecture",
-                    "title": "ethics 2",
+                    "title": "ethics",
                     "release": "May 7 2026",
                     "link": ""
                 }
