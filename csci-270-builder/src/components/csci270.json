@@ -493,9 +493,9 @@
             "thu": [
                 {
                     "type": "lecture",
-                    "title": "softmax",
+                    "title": "multiclass logistic regression and softmax",
                     "release": "Apr 16 2026",
-                    "link": ""
+                    "link": "https://drive.google.com/file/d/1VG0CgYP3g8Vk1nMWGncOWM-ftXHXLx1F/view?usp=sharing"
                 },
                 {
                     "type": "activity",
