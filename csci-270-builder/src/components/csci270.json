@@ -517,6 +517,14 @@
             },
             "mon": [
                 {
+                    "type": "activity",
+                    "title": "oral exam 2",
+                    "release": "Nov 5 2026",
+                    "link": "https://docs.google.com/document/d/1W45Uss_w4uXrWtP594A-0A7Dz7mL4tcGLk6FVT5NXCI/edit?usp=sharing"
+                }
+            ],
+            "thu": [
+                {
                     "type": "lecture",
                     "title": "probability",
                     "release": "Apr 16 2026",
@@ -546,8 +554,19 @@
                     "release": "Apr 16 2026",
                     "link": "https://docs.google.com/document/d/1pStnwKTGwDHf6IzRETBhUOiEJKfd7Cx34bOrBsYCayY/edit?usp=sharing"
                 }
-            ],
-            "thu": [
+            ]
+        },
+        {
+            "id": "week-10",
+            "week": 10,
+            "lab": {
+                "id": "lab-8",
+                "title": "aloha, mr. morse/the power of redundancy",
+                "release": "Apr 21 2026",
+                "due": "May 12 2026",
+                "link": "https://docs.google.com/document/d/1eGF47laUQauImIhYJ7o4oHN2Yq899t3212hu0bp_awo/edit?usp=drive_link"
+            },
+            "mon": [
                 {
                     "type": "lecture",
                     "title": "the law of total probability",
@@ -572,19 +591,8 @@
                     "release": "Apr 16 2026",
                     "link": "https://docs.google.com/document/d/1ZpqquDhMqF6H4N11CELnVNvnrZ4S4wgxO2PdpxL52WI/edit?usp=sharing"
                 }
-            ]
-        },
-        {
-            "id": "week-10",
-            "week": 10,
-            "lab": {
-                "id": "lab-8",
-                "title": "aloha, mr. morse/the power of redundancy",
-                "release": "Apr 21 2026",
-                "due": "May 12 2026",
-                "link": "https://docs.google.com/document/d/1eGF47laUQauImIhYJ7o4oHN2Yq899t3212hu0bp_awo/edit?usp=drive_link"
-            },
-            "mon": [
+            ],
+            "thu": [
                 {
                     "type": "lecture",
                     "title": "the value of information",
@@ -615,8 +623,19 @@
                     "release": "Apr 27 2026",
                     "link": "https://docs.google.com/document/d/1apjiWsTEGUltvdPRaPzNUbGPoCqYppYZfdufrhDC34k/edit?usp=sharing"
                 }
-            ],
-            "thu": [
+            ]
+        },
+        {
+            "id": "week-11",
+            "week": 11,
+            "lab": {
+                "id": "lab-9",
+                "title": "thanksgiving break",
+                "release": "",
+                "due": "",
+                "link": ""
+            },
+            "mon": [
                 {
                     "type": "lecture",
                     "title": "probabilistic inference",
@@ -653,17 +672,17 @@
                     "release": "Apr 30 2026",
                     "link": "https://docs.google.com/document/d/1aY9QPPIw_ao4eHl8H-wbdh2P-yVICz2sKVB8WUAcYG0/edit?usp=sharing"
                 }
-            ]
+            ],
+            "thu": []
         },
         {
-            "id": "week-11",
-            "week": 11,
+            "id": "week-12",
+            "week": 12,
             "lab": {
-                "id": "lab-9",
-                "title": "thanksgiving break",
-                "release": "",
-                "due": "",
-                "link": ""
+                "id": "lab-11",
+                "title": "bloodlines",
+                "release": "May 13 2026",
+                "link": "https://docs.google.com/document/d/1r315RI4HrGn_lHxQ0lV1yRx49AyMThAPbZtxbQR0qKo/edit?usp=drive_link"
             },
             "mon": [
                 {
@@ -685,18 +704,7 @@
                     "link": "lectures/variable-elimination.pdf"
                 }
             ],
-            "thu": []
-        },
-        {
-            "id": "week-12",
-            "week": 12,
-            "lab": {
-                "id": "lab-11",
-                "title": "bloodlines",
-                "release": "May 13 2026",
-                "link": "https://docs.google.com/document/d/1r315RI4HrGn_lHxQ0lV1yRx49AyMThAPbZtxbQR0qKo/edit?usp=drive_link"
-            },
-            "mon": [
+            "thu": [
                 {
                     "type": "activity",
                     "title": "hidden markov models",
@@ -726,14 +734,6 @@
                     "title": "d-separation",
                     "release": "May 7 2026",
                     "link": "https://docs.google.com/document/d/1MxDqmHJ89PdQ-18Kv_i-m0JcsyojODu-szlJ1YWe47Y/edit?usp=sharing"
-                }
-            ],
-            "thu": [
-                {
-                    "type": "lecture",
-                    "title": "ethics",
-                    "release": "May 7 2026",
-                    "link": ""
                 }
             ]
         },
